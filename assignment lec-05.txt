@@ -1,0 +1,75 @@
+QUES 1.
+
+#include<iostream>
+using namespace std;
+int main() {
+    int i;
+    for(i=1;i<=100;i++) {
+        if(i%2!=0) {
+            cout<<i<<endl;
+        }
+    }
+}
+
+QUES 2.
+
+#include<iostream>
+using namespace std;
+int main() {
+    for(int i=1;i<=100;i++) {
+        if(i%5==0) {
+            cout<<i<<endl;
+        }
+    }
+}
+
+QUES 3.
+
+#include<iostream>
+using namespace std;
+int main() {
+    int n;
+    cout<<"enter n: ";
+    cin>>n;
+    for(int i=1;i<=10;i++) {
+        cout<<(n*i)<<endl;
+    }
+}
+
+QUES 4.
+
+#include<iostream>
+using namespace std;
+int main() {
+    int n;
+    cout<<"enter n: ";
+    cin>>n;
+    for(int i=4;i<=n;i+=3) {
+        cout<<i<<endl;
+    }
+}
+
+QUES 5.
+
+#include<iostream>
+using namespace std;
+int main() {
+    int n;
+    cout<<"enter n: ";
+    cin>>n;
+    for(int i=3;i<=n;i*=4) {
+        cout<<i<<endl;
+    }
+}
+
+QUES 6.
+
+#include<iostream>
+using namespace std;
+int main() {
+    int i;
+    char ch;
+    for(int i=65;i<=91;i++) {
+        cout<<i<<" "<<(char)i<<endl;
+    }
+}
